@@ -6,8 +6,8 @@ class Dog
   attr_accessor :name
 
   def initialize(name)
-    @name.save = name
-
+    @name = name
+    @@all << name.save
   end
 
   def self.all
