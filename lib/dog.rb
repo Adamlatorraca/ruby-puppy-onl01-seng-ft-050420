@@ -16,8 +16,7 @@ class Dog
 
   def self.print_all
     names = []
-    @@all.each do |name|
-      names << name
+    @@all.collect { |name|  }
     end
     names
   end
