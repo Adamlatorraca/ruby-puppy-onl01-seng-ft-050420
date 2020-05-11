@@ -19,5 +19,6 @@ class Dog
     @@all.each do |name|
       names << name
     end
+    names
   end
 end
